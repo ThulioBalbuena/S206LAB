@@ -1,0 +1,5 @@
+1-Os testes são automatizados, pois foram configurados para serem executados automaticamente no Postman. Isso permite a execução repetida dos testes sem intervenção manual, garantindo consistência e eficiência.
+
+2-Sim, alguns testes são End-To-End. Por exemplo o fluxo de criação e atualização de um post cobre as principais interações com o recurso, simulando uma experiência real de uso da API.
+
+3-Para que os testes funcionem em modo de regressão, é ideal integrá-los em uma pipeline de integração contínua (CI/CD) como o Jenkins.Isso permite que os testes sejam executados automaticamente a cada nova alteração no código, identificando rapidamente problemas causados por atualizações.
